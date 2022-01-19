@@ -11,6 +11,7 @@
 		C9DC4C37279835D4008B7046 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC4C36279835D4008B7046 /* ContentView.swift */; };
 		C9DC4C39279835D5008B7046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9DC4C38279835D5008B7046 /* Assets.xcassets */; };
 		C9DC4C3C279835D5008B7046 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9DC4C3B279835D5008B7046 /* Preview Assets.xcassets */; };
+		C9DC4C43279852C2008B7046 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC4C42279852C2008B7046 /* AboutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		C9DC4C36279835D4008B7046 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C9DC4C38279835D5008B7046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9DC4C3B279835D5008B7046 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C9DC4C42279852C2008B7046 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		C9DC4C44279856BC008B7046 /* Cash-Bullseye-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Cash-Bullseye-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +38,7 @@
 		C9DC4C28279835D4008B7046 = {
 			isa = PBXGroup;
 			children = (
+				C9DC4C42279852C2008B7046 /* AboutView.swift */,
 				C9DC4C33279835D4008B7046 /* Cash_Bullseye */,
 				C9DC4C32279835D4008B7046 /* Products */,
 			);
@@ -51,6 +55,7 @@
 		C9DC4C33279835D4008B7046 /* Cash_Bullseye */ = {
 			isa = PBXGroup;
 			children = (
+				C9DC4C44279856BC008B7046 /* Cash-Bullseye-Info.plist */,
 				C9DC4C34279835D4008B7046 /* Cash_BullseyeApp.swift */,
 				C9DC4C36279835D4008B7046 /* ContentView.swift */,
 				C9DC4C38279835D5008B7046 /* Assets.xcassets */,
@@ -138,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9DC4C37279835D4008B7046 /* ContentView.swift in Sources */,
+				C9DC4C43279852C2008B7046 /* AboutView.swift in Sources */,
 				C9DC4C35279835D4008B7046 /* Cash_BullseyeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,10 +277,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Cash_Bullseye/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "Cash-Bullseye-Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -299,10 +307,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Cash_Bullseye/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "Cash-Bullseye-Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
